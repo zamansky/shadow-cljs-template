@@ -1,0 +1,25 @@
+{
+  "name": "shadow-cjs-template",
+  "version": "1.0.0",
+  "description": "A simple template for my shadow-cljs experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zamansky/shadow-cjs-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zamansky/shadow-cjs-template/issues"
+  },
+  "homepage": "https://github.com/zamansky/shadow-cjs-template#readme",
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
