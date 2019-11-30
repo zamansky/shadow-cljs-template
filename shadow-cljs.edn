@@ -5,7 +5,6 @@
  :dependencies
  [[reagent "0.8.1"]
   [org.clojure/core.async "0.4.500"]
-  [reagent "0.8.1"]
   [com.taoensso/timbre "4.10.0"]
   ]
 
