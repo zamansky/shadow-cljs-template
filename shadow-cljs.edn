@@ -17,6 +17,5 @@
                            :http-root "target"
                            :http-port 8080}}}}
 
- {}
 
  }
