@@ -15,7 +15,7 @@
                 :modules {:main {:init-fn main/main!}}
                 :devtools {:after-load main/reload!
                            :http-root "target"
-                           :http-port 8080}}}}
+                           :http-port 8080}}}
 
 
  }
