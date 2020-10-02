@@ -5,7 +5,8 @@
    "main": "index.js",
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "tw": "npx tailwind build tw/style.css -o target/css/main.css",
+      "tw": "tailwind build tw/style.css -- -o target/css/main.css",
+      "watch": "shadow-cljs watch app",
       "watch:css": "onchange 'tw/*css' -- npm run tw"
    },
    "repository": {
@@ -19,11 +20,14 @@
       "url": "https://github.com/zamansky/shadow-cjs-template/issues"
    },
    "homepage": "https://github.com/zamansky/shadow-cjs-template#readme",
+   "devDependencies": {
+      "onchange": "^6.1.0",
+      "tailwindcss": "^1.1.4",
+      "shadow-cljs": "2.11.4"
+   },
    "dependencies": {
       "create-react-class": "^15.6.3",
       "react": "^16.9.0",
-      "react-dom": "^16.9.0",
-      "shadow-cljs": "^2.8.83",
-      "tailwindcss": "^1.1.4"
+      "react-dom": "^16.9.0"
    }
 }
